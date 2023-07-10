@@ -74,31 +74,44 @@
   font-weight: 400;
 }
 .flower-continer {
-  margin: auto;
   display: flex;
   gap: 24px;
-  align-items: center;
+  margin-left: 480px;
 }
 .flo1 {
+  margin-top: 48px;
+  align-items: center;
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 }
 .flo2 {
+  margin-top: 48px;
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
 }
 .flo3 {
+  margin-top: 48px;
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
 }
 .flower1 {
-  padding: 78px;
   width: 310px;
-  margin-bottom: 0;
+  height: 428px;
+  padding: 110px 76px 0px 78px;
+}
+.flower2 {
+  width: 370px;
+  height: 370px;
+  padding: 117px 47px 51px 47px;
+}
+.flower3 {
+  width: 314px;
+  height: 471px;
+  padding: 67px 75px 75px;
 }
