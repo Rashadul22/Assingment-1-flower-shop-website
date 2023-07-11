@@ -49,12 +49,17 @@
   font-family: Lato;
   border: 0;
 }
-.banner-content {
-}
 
+main {
+  width: 1920px;
+  height: 4867px;
+}
+main section {
+  margin-top: 128px;
+}
 .featured-flowers {
   margin-top: 178px;
-  height: 4867px;
+
   background: #fff;
 }
 .section-title {
@@ -123,4 +128,86 @@
   font-size: 24px;
   font-weight: 700;
   text-decoration-line: underline;
+}
+.service {
+  margin-left: 480px;
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 128px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.service-info {
+  text-align: center;
+  padding: 88px 88px;
+}
+.service-title {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+}
+.offer {
+  margin-top: 128px 0px;
+  width: 110%;
+  padding: 230px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.offer-haeding {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+span {
+  color: #e55473;
+}
+.offer-description {
+  width: 594px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
+.sing-up {
+  margin-top: 32px;
+  margin-left: 200px;
+  padding: 20px 43px 20px 43px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+}
+.insta {
+  margin-left: 480px;
+  text-align: center;
+}
+.insta-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+.insta-description {
+  margin-top: 24px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
+.insta-pics {
+  margin-top: 48px;
+  display: flex;
+  width: 342px;
+  height: 396px;
+  gap: 24px;
 }
