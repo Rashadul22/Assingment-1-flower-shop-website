@@ -286,12 +286,9 @@ span {
   font-weight: 400;
 }
 footer {
-  margin-right: 900px;
   margin-top: 128px;
-  width: 110vw;
-  height: auto;
+  padding: 100px 100px;
   background: #111010;
-  color: #fff;
 }
 .footer-content {
   display: flex;
@@ -305,11 +302,21 @@ footer {
   font-weight: 800;
   font-size: 48px;
   font-weight: 800;
+  color: #fff;
 }
 .flowershopdescription {
+  margin-bottom: 24px;
   color: rgba(255, 255, 255, 0.9);
   width: 625px;
+  text-align: center;
   font-family: Lato;
   font-size: 18px;
+  font-weight: 400;
+}
+.copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
   font-weight: 400;
 }
