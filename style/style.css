@@ -52,7 +52,6 @@
 
 main {
   width: 1920px;
-  height: 4867px;
 }
 main section {
   margin-top: 128px;
@@ -62,7 +61,11 @@ main section {
 
   background: #fff;
 }
+.featured-flowers {
+  text-align: center;
+}
 .section-title {
+  margin-left: 500px;
   color: #272727;
   text-align: center;
   font-family: Lato;
@@ -70,6 +73,7 @@ main section {
   font-weight: 800;
 }
 .section-description {
+  margin-left: 500px;
   margin-top: 24px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
@@ -148,14 +152,23 @@ main section {
   font-size: 24px;
   font-weight: 600;
 }
+
 .offer {
-  margin-top: 128px 0px;
-  width: 110%;
-  padding: 230px;
+  display: flex;
+  align-items: center;
+  margin-top: 128px;
+  width: 110vw;
+  height: auto;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
+  color: #fff;
+}
+.rose-picture {
+  width: 318px;
+  margin-left: 250px;
 }
 .offer-haeding {
+  margin-left: 500px;
   color: #272727;
   font-family: Lato;
   font-size: 40px;
@@ -165,6 +178,7 @@ span {
   color: #e55473;
 }
 .offer-description {
+  margin-left: 500px;
   width: 594px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
@@ -173,8 +187,8 @@ span {
   font-weight: 400;
 }
 .sing-up {
+  margin-left: 700px;
   margin-top: 32px;
-  margin-left: 200px;
   padding: 20px 43px 20px 43px;
   gap: 10px;
   border-radius: 8px;
@@ -197,6 +211,8 @@ span {
   font-weight: 800;
 }
 .insta-description {
+  width: 50%;
+  margin: auto;
   margin-top: 24px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
@@ -212,41 +228,88 @@ span {
   gap: 24px;
 }
 .deal {
-  text-align: center;
-}
-.deal-info {
-  text-align: center;
-}
-.deal-pic {
+  margin-left: 533px;
   width: 1440px;
-  margin-left: 480px;
-  border-radius: 8px;
+  height: 449px;
+  background-image: url('../img/rectangle\ 9.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
 }
 .deal-title {
-  text-align: center;
+  margin-bottom: 16px;
+  margin-left: 200px;
   color: #272727;
+  text-align: center;
   font-family: Lato;
   font-size: 40px;
   font-weight: 800;
 }
 .deal-discription {
-  text-align: center;
+  margin-left: 200px;
+  margin-bottom: 48px;
   color: rgba(39, 39, 39, 0.6);
+  text-align: center;
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
 }
-.Subscribe-btn {
-  width: 150px;
+
+.email-input {
+  margin-left: 287px;
+  width: 700px;
+  height: 64px;
   border-radius: 8px;
+  background: #fff;
+  border: 0;
+}
+.Subscribe-btn {
+  margin-left: 16px;
+  padding: 18px 31px 28px 31px;
+  gap: 10px;
   background: #e55473;
-  width: 88px;
-  height: 27.429px;
   color: #fff;
   font-family: Lato;
   font-size: 20px;
   font-weight: 700;
+  border: 0;
+  border-radius: 8px;
 }
 
-.contact input[type='email'] {
+.email-input::placeholder {
+  padding: 22px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: left;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer {
+  margin-right: 900px;
+  margin-top: 128px;
+  width: 110vw;
+  height: auto;
+  background: #111010;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.flowershop {
+  font-family: Lato;
+  font-weight: 800;
+  font-size: 48px;
+  font-weight: 800;
+}
+.flowershopdescription {
+  color: rgba(255, 255, 255, 0.9);
+  width: 625px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
 }
